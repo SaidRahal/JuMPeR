@@ -1,4 +1,4 @@
-using JuMP, MathProgBase, CPLEX, LinearAlgebra
+using JuMP, MathProgBase, GLPKMathProgInterface, LinearAlgebra
 include("JuMPeR_master/src/JuMPeR.jl") # change the path accordingly
 
 include("inputStructs.jl")
